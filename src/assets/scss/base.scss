@@ -387,9 +387,12 @@ body {
 }
 }
 @media (max-width: 750px){
-.countries{
-    gap: 40px;
-}
+    .countries{
+        gap: 40px;
+    }
+    .about-country{
+        padding-bottom: 90px;
+    }
 }
 @media (max-width: 600px){
     .about-country__info__img{
@@ -398,5 +401,19 @@ body {
     .about-country__info__content{
         flex-wrap: wrap;
     }
+    .about-country__info__img{
+        height: 300px;
+    }
 }
-
+@media (max-width: 400px){
+    .logo {
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+    .about-country__info__img{
+        height: 280px;
+    }
+    .about-country{
+        padding-top: 120px;
+    }
+}

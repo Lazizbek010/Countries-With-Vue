@@ -32,7 +32,7 @@
                         <li class="border-list__item" v-for="(border, i) in about.borders" :key="i">{{ border }}</li>
                         <!-- <li v-else class="border-list__item" v-for="(border, i) in about.borders" :key="i">No </li> -->
                     </ul>
-                    <h1 v-else>Yoq</h1>
+                    <h1 v-else>No Borders!</h1>
                 </div>
             </div>
         </div>
