@@ -2,7 +2,7 @@
     <div class="home">
         <div class="overlay" v-show="loading">
             <div class="loader">
-                <img src="loader/circle-loader.gif" alt="">
+                <img src="@/assets/loader/circle-loader.gif" alt="">
             </div>
         </div>
         <div class="container">
